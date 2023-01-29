@@ -1,6 +1,8 @@
 # C-Code
 This c++ Code is Maximum Ice Cream Bars
- int maxIceCream(vector<int>& costs, int coins) {
+
+ int maxIceCream(vector<int>& costs, int coins) 
+ {
         sort(costs.begin(),costs.end());
         int n=costs.size();
         if(costs[0]>coins)return 0;
